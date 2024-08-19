@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Countdown Timer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+
+  <!-- Countdown Timer Section -->
+  <section class="bg-white shadow-lg rounded-lg p-6 max-w-md w-full">
+    <h1 class="text-3xl font-bold text-center mb-6">Event Countdown</h1>
+    <div id="countdown" class="flex justify-between text-center">
+      <div class="bg-gray-200 p-4 rounded-lg">
+        <span id="days" class="text-4xl font-bold">00</span>
+        <div class="text-sm text-gray-600">Days</div>
+      </div>
+      <div class="bg-gray-200 p-4 rounded-lg">
+        <span id="hours" class="text-4xl font-bold">00</span>
+        <div class="text-sm text-gray-600">Hours</div>
+      </div>
+      <div class="bg-gray-200 p-4 rounded-lg">
+        <span id="minutes" class="text-4xl font-bold">00</span>
+        <div class="text-sm text-gray-600">Minutes</div>
+      </div>
+      <div class="bg-gray-200 p-4 rounded-lg">
+        <span id="seconds" class="text-4xl font-bold">00</span>
+        <div class="text-sm text-gray-600">Seconds</div>
+      </div>
+    </div>
+    <p class="text-center mt-4 text-gray-600">The countdown timer will reach zero on the event date.</p>
+  </section>
+
+  <!-- Include JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
